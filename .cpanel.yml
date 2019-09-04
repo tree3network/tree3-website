@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/botlbfob/tree3.network
+    - cp -r * $DEPLOYPATH
